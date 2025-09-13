@@ -4,3 +4,13 @@ def count_words(book_text):
     for word in split_words:
         total_words += 1
     return total_words
+
+def count_chars(book_text):
+    char_dict = {}
+    lower_chars = book_text.lower()
+    for char in lower_chars:
+        if char in char_dict:
+            char_dict[char] += 1
+        else:
+            char_dict[char] = 1
+    return char_dict
