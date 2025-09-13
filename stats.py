@@ -14,3 +14,8 @@ def count_chars(book_text):
         else:
             char_dict[char] = 1
     return char_dict
+
+def sort_list(char_dict):
+    sorted_list = {}
+    
+    return sorted_list
